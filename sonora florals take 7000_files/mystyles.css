@@ -1,0 +1,35 @@
+ul{font-size: 20px;
+text-align: center;
+display: inline-block;
+text-align: center;
+list-style-position: inside;
+}
+
+h2{color: #DCAC24;
+text-align: center;}
+
+h1{color: #DCAC24;}
+
+h6{color: #DCAC24;}
+
+img{width: 50%;}
+
+p{
+    text-align: center;
+}
+
+.expandable {
+    /*   margin:0; */
+    /*   padding:0; */
+      overflow: hidden;
+    }
+    img.expandable{
+      display:none;
+      
+    /*   transition: height 1s; */
+    }
+    
+    *:has(> .expandable):hover > img {
+      display:inherit;
+    }
+    
